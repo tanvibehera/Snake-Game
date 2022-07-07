@@ -68,7 +68,7 @@ function gameEngine() {
       x: snakeArr[0].x + inputDir.x,
       y: snakeArr[0].y + inputDir.y,
     });
-    let a = 2;
+    let a = 3;
     let b = 16;
     food = {
       x: Math.round(a + (b - a) * Math.random()),
